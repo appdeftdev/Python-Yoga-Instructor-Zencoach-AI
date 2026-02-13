@@ -1,0 +1,3 @@
+
+def chat(request):
+    pass

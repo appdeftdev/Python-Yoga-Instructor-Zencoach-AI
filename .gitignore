@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+
+venv/
+.env
+
+*/migrations/__pycache__/
+staticfiles/
+reminders/migrations/
+
+# Ignore all migration files except __init__.py
+*/migrations/*.py
+!*/migrations/__init__.py
+
+service_files/
+media/
+
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
